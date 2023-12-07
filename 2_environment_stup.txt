@@ -1,0 +1,2 @@
+Create a conda environment - chatbot
+Create a github repository - chatbot

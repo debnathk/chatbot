@@ -1,0 +1,16 @@
+# Scope and features
+ - The chatbot will contain some basic details about myself. User can interact wuth the chatbot to know more about me.
+
+# Programming language, web framework, and database.
+    - Python, Flask, and SQLite
+
+# Plan the user interface and conversational flow
+    - The chatbot will ask the user to enter his/her name.
+    - Understanding the answer (NLP), the chatbot will greet the user.
+    - The user can ask the chatbot atmost 3 questions in a conversational flow:
+        - What is your name?
+        - What is your age?
+        - What is your hobby?
+        - For any other question, the chatbot will reply with a default answer.
+    - The chatbot will answer the questions asked by the user.
+    - After answering the questions, the chatbot will end the session.
