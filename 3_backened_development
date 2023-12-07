@@ -1,0 +1,63 @@
+# Implement backened
+
+1. **Define the Chatbot Logic:**
+    - The chatbot will ask the user to enter his/her name.
+        - Understanding the answer (NLP), the chatbot will greet the user.
+        - The user can ask the chatbot atmost 3 questions in a conversational flow:
+            - What is your name?
+            - What is your age?
+            - What is your hobby?
+            - For any other question, the chatbot will reply with a default answer.
+        - The chatbot will answer the questions asked by the user.
+        - After answering the questions, the chatbot will end the session.
+
+2. **Choose a Backend Technology:**
+   - Python with Flask
+
+3. **Set Up the Development Environment:**
+   - Install Python - Done
+   - Create environment - Done
+   - Install Flask - Done
+   - Create a Flask project:
+    - \env -  for environment file
+    - \static - for css, js, image files
+    - \templates - for the html file
+    - app.py - the main code file
+   - run app.py on powershell
+   - go to http://127.0.0.1:5000/ in the browser - the app is running there 
+
+4. **Integrate Natural Language Processing (NLP):**
+   - If your chatbot needs to understand and generate natural language, integrate an NLP library or API. Popular choices include spaCy, NLTK, or the Natural Language Toolkit.
+
+5. **Implement User Authentication:**
+   - If your chatbot requires user-specific data or features, implement user authentication to secure access to certain functionalities.
+
+6. **Database Integration:**
+   - Set up a database to store and retrieve information. Choose a database that suits your needs, such as PostgreSQL, MySQL, or MongoDB.
+
+7. **Implement Chatbot Logic:**
+   - Write code to handle incoming user messages.
+   - Implement the chatbot logic to understand user intent, process queries, and generate responses.
+   - Maintain context and conversation history for a more natural interaction.
+
+8. **Connect to External Services (Optional):**
+   - If your chatbot needs to interact with external services, APIs, or databases, implement the necessary connections.
+
+9. **Testing:**
+   - Test your chatbot backend thoroughly. Consider unit testing, integration testing, and end-to-end testing to ensure all components work together seamlessly.
+
+10. **Deployment:**
+    - Deploy your chatbot backend to a server or cloud platform. Common choices include AWS, Google Cloud, or Heroku.
+
+11. **Monitor and Maintain:**
+    - Implement logging and monitoring to track usage, errors, and performance.
+    - Regularly update and maintain your chatbot to improve its capabilities and fix any issues.
+
+12. **Documentation:**
+    - Provide documentation for developers who might work on or integrate with your chatbot.
+
+Remember that the steps may vary depending on the specific requirements of your chatbot and the technologies you choose. Additionally, if you're building a chatbot for a specific platform (e.g., Facebook Messenger, Slack), you may need to follow their guidelines and use their APIs.
+ Database Integration
+   - Choose and set up your database.
+   - Implement basic CRUD (Create, Read, Update, Delete) operations.
+   - Test data storage and retrieval.
