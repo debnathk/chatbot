@@ -27,16 +27,16 @@
    - go to http://127.0.0.1:5000/ in the browser - the app is running there 
 
 4. **Integrate Natural Language Processing (NLP):**
-   - Integrate the NLP library - spaCy
-    - pip install spacy
-    - python -m spacy download en_core_web_sm
-    - 
+   - Integrate the NLP library - spaCy - Done
+    - pip install spacy - Done
+    - python -m spacy download en_core_web_sm - Done
+    - Perform basic greeting - Done
 
 5. **Implement User Authentication:**
    - If your chatbot requires user-specific data or features, implement user authentication to secure access to certain functionalities.
 
 6. **Database Integration:**
-   - Set up a database to store and retrieve information. Choose a database that suits your needs, such as PostgreSQL, MySQL, or MongoDB.
+   - Set up a database to store and retrieve information - Using SQLlite
 
 7. **Implement Chatbot Logic:**
    - Write code to handle incoming user messages.
