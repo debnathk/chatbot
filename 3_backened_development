@@ -27,7 +27,10 @@
    - go to http://127.0.0.1:5000/ in the browser - the app is running there 
 
 4. **Integrate Natural Language Processing (NLP):**
-   - If your chatbot needs to understand and generate natural language, integrate an NLP library or API. Popular choices include spaCy, NLTK, or the Natural Language Toolkit.
+   - Integrate the NLP library - spaCy
+    - pip install spacy
+    - python -m spacy download en_core_web_sm
+    - 
 
 5. **Implement User Authentication:**
    - If your chatbot requires user-specific data or features, implement user authentication to secure access to certain functionalities.
