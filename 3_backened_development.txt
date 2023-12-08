@@ -35,9 +35,9 @@
          [5. **Implement User Authentication:**
             - If your chatbot requires user-specific data or features, implement user authentication to secure access to certain functionalities.] - Not required as of now
 
-      [6. **Database Integration:**
-         - Using SQLlite
-         - pip install sqlite3] - Not required as of now
+         [6. **Database Integration:**
+            - Using SQLlite
+            - pip install sqlite3] - Not required as of now
 
 7. **Implement Chatbot Logic:**
    - Write code to handle incoming user messages.
