@@ -30,7 +30,6 @@
    - Integrate the NLP library - spaCy - Done
     - pip install spacy - Done
     - python -m spacy download en_core_web_sm - Done
-    - Perform basic greeting - Done
 
          [5. **Implement User Authentication:**
             - If your chatbot requires user-specific data or features, implement user authentication to secure access to certain functionalities.] - Not required as of now
@@ -40,6 +39,7 @@
             - pip install sqlite3] - Not required as of now
 
 7. **Implement Chatbot Logic:**
+   - Perform basic greeting - Done
    - Write code to handle incoming user messages.
    - Implement the chatbot logic to understand user intent, process queries, and generate responses.
    - Maintain context and conversation history for a more natural interaction.
