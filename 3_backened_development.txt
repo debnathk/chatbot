@@ -32,11 +32,13 @@
     - python -m spacy download en_core_web_sm - Done
     - Perform basic greeting - Done
 
-5. **Implement User Authentication:**
-   - If your chatbot requires user-specific data or features, implement user authentication to secure access to certain functionalities.
+         [5. **Implement User Authentication:**
+            - If your chatbot requires user-specific data or features, implement user authentication to secure access to certain functionalities.] - Not required as of now
 
 6. **Database Integration:**
-   - Set up a database to store and retrieve information - Using SQLlite
+   - Using SQLlite
+   - pip install sqlite3
+   - 
 
 7. **Implement Chatbot Logic:**
    - Write code to handle incoming user messages.
