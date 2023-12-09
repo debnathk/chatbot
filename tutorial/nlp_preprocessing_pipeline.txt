@@ -1,0 +1,1 @@
+Text -> Tokenization -> Lowercase + Stemming -> Exclude punctuation characters -> Vectorization -> Classification

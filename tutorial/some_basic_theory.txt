@@ -1,0 +1,80 @@
+Bag of words - a text representation technique that describes the occurrence of words within a document. It involves two things: a vocabulary of known words and a measure of the presence of known words. It is called a "bag" of words, because any information about the order or structure of words in the document is discarded. The model is only concerned with whether known words occur in the document, not where in the document. The bag-of-words model is commonly used in methods of document classification, where the frequency of each word is used as a feature for training a classifier. 
+
+Tokenization - the process of breaking a stream of text up into words, phrases, symbols, or other meaningful elements called tokens. The list of tokens becomes input for further processing such as parsing or text mining. Tokenization is useful both in linguistics (where it is a form of text segmentation), and in computer science, where it forms part of lexical analysis.
+
+Stemming - the process of reducing inflected (or sometimes derived) words to their word stem, base or root form—generally a written word form. The stem need not be identical to the morphological root of the word; it is usually sufficient that related words map to the same stem, even if this stem is not in itself a valid root. Algorithms for stemming have been studied in computer science since the 1960s. Many search engines treat words with the same stem as synonyms as a kind of query expansion, a process called conflation.
+
+Exercises:
+**Multiple Choice Quiz: Bag of Words, Tokenization, and Stemming**
+
+**1. What is the primary focus of the bag-of-words model?**
+   - a. Word order and structure in a document
+   - b. Frequency distribution of words in a document
+   - c. Grammar and syntax in a document
+   - d. Document length and complexity
+
+**2. Why is it called a "bag" of words in the bag-of-words model?**
+   - a. Because it organizes words in a structured manner
+   - b. Because it considers the order of words in a document
+   - c. Because it discards information about word occurrence
+   - d. Because it uses a specific bag-like data structure
+
+**3. In which field is the bag-of-words model commonly used?**
+   - a. Speech recognition
+   - b. Document classification
+   - c. Image processing
+   - d. Natural language generation
+
+**4. What does tokenization involve in the context of text processing?**
+   - a. The process of reducing words to their base form
+   - b. Breaking text into meaningful elements called tokens
+   - c. The measurement of word presence in a document
+   - d. Classifying documents based on word frequency
+
+**5. What is the primary purpose of tokenization in computer science?**
+   - a. Enhancing document structure
+   - b. Lexical analysis and parsing
+   - c. Query expansion in search engines
+   - d. Improving word stem identification
+
+**6. How does stemming contribute to text processing?**
+   - a. It focuses on maintaining word order in documents
+   - b. It reduces words to their base or root form
+   - c. It emphasizes the importance of grammar in text
+   - d. It categorizes words based on their inflections
+
+**7. When using the bag-of-words model for document classification, what is considered as a feature for training a classifier?**
+   - a. Word order
+   - b. Frequency of each word
+   - c. Length of the document
+   - d. Grammar and syntax
+
+**8. What is the primary benefit of stemming in search engines?**
+   - a. Improved document classification
+   - b. Enhanced word order recognition
+   - c. Query expansion by treating similar stems as synonyms
+   - d. Preservation of word inflections
+
+**9. In tokenization, what does the list of tokens become input for?**
+   - a. Speech recognition
+   - b. Document classification
+   - c. Text mining and parsing
+   - d. Query expansion in search engines
+
+**10. Which term refers to the process of breaking a stream of text into meaningful elements called tokens?**
+   - a. Stemming
+   - b. Lexical analysis
+   - c. Bag of words
+   - d. Inflection reduction
+
+**Answers:**
+1. b
+2. c
+3. b
+4. b
+5. b
+6. b
+7. b
+8. c
+9. c
+10. b
