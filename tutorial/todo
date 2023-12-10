@@ -1,4 +1,4 @@
 1) Theory + Basic concepts (Bag of words, Tokenization, Stemming) - Done
-2) Create training data
+2) Create training data - Done
 3) Pytorch model and training
 4) Save/load model and implement the chat
