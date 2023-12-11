@@ -7,7 +7,7 @@ from utils import tokenize, stem, bag_of_words
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Load intents
-with open('tutorial/intents.json', 'r') as f:
+with open('tutorial/info.json', 'r') as f:
     intents = json.load(f)
 
 FILE = "data.pth"

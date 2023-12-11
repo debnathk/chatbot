@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "family",
+      "patterns": [
+        "What can you share with me about your family?",
+        "Could you provide some details about your family?",
+        "Would you mind telling me a bit about your family?",
+        "What's something interesting you can share about your family?",
+        "How would you describe your family to someone?",
+        "Can you give me some insights into your family background?",
+        "What are some notable aspects of your family life?",
+        "Is there something unique or special about your family that you'd like to share?",
+        "How does your family contribute to shaping who you are?",
+        "What comes to mind when you think about your family?"
+      ],
+      "responses": [
+        "Our family consists of four members-myself, my older brother, my father, and my mother. We reside in Kolkata, India Although I'm currently in Richmond, USA.",
+        "In our family, there are four of us-me, my elder brother, my father, and my mother. Our home is in Kolkata, India, while I currently reside in Richmond, USA.",
+        "There are four members in our family: me, my older brother, my father, and my mother. Our family home is located in Kolkata, India. Presently, I live in Richmond, USA.",
+        "Me, my elder brother, my father, and my mother make up our family of four. Our family resides in Kolkata, India, but I currently live in Richmond, USA.",
+        "Our family, comprising me, my older brother, my father, and my mother, is based in Kolkata, India. I, however, currently live in Richmond, USA. Additionally, we share our home with a delightful kitten."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
