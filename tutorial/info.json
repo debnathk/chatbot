@@ -4,17 +4,46 @@
       "tag": "greeting",
       "patterns": [
         "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
+        "Good morning",
+        "Today is a good day, isn't it?",
         "Hello",
-        "Good day"
+        "Hey",
+        "What's up?"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hey, how ya doin'?",
+        "What's up? How's it going?",
+        "Hi there! How's things?",
+        "Hey, how ya feelin'?",
+        "What's happening? How you doing?",
+        "Hi, how's your day so far?",
+        "Yo, what's good? How you been?",
+        "Hey, everything cool on your side?",
+        "Hi. Sup? How you been lately?",
+        "Hey, how's life treating ya?"
+      ]
+    },
+    {
+      "tag": "Kusal",
+      "patterns": [ 
+        "Kusal, is it you?",
+        "Hi, Kusal",
+        "Hey, Kusal",
+        "Kusal, is that you?",
+        "Hello, Kusal",
+        "Kusal, are you there?"
+      ],
+      "responses": [
+        "Hi there, it's Kusal. How's everything going?",
+        "Hello, it's Kusal checking in. How are things on your end?",
+        "Greetings! Kusal here. How's everything shaping up for you?",
+        "Hey, Kusal here. How's everything going on your side?",
+        "Hi, it's me, Kusal. How are things unfolding for you?",
+        "Greetings, it's Kusal. How's everything in your world?",
+        "Hello, Kusal here. How's life treating you today?",
+        "Hey, this is Kusal. How's your day panning out so far?",
+        "Hi, it's Kusal checking in. How's the day treating you?",
+        "Greetings! Kusal here. How's everything on your plate?"
       ]
     },
     {
