@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KusalBot</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #4a2626;
+            font-family: Arial, sans-serif;
+        }
+        #chatbox {
+            width: 300px;
+            height: 400px;
+            background-color: #609243;
+            padding: 20px;
+            border-radius: 10px;
+            overflow-y: auto;
+        }
+        #userInput {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="chatbox">
+        <p class="botText"><span>Kusal: Hi! I'm Kusal! Nice to meet you!.</span></p>
+    </div>
+
+    <form id="userInput" action="/" method="GET">
+        <input id="textInput" type="text" name="msg" placeholder="Message">
+        <input id="buttonInput" type="submit" value="Send">
+    </form>
+
+    <script>
+        $("#userInput").on('submit', function(e) {
+            e.preventDefault();
+            getBotResponse();
+        });
+
+        function getBotResponse() {
+            var rawText = $("#textInput").val();
+            var userHtml = '<p class="userText"><span>You: ' + rawText + '</span></p>';
+            $("#textInput").val("");
+            $("#chatbox").append(userHtml);
+            document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+            $.get("/get", { msg: rawText }).done(function(data) {
+              var botHtml = '<p class="botText"><span>Kusal: ' + data + '</span></p>';
+              $("#chatbox").append(botHtml);
+              document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+            });
+        }
+    </script>
+
+</body>
+</html>
