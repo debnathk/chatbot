@@ -1,16 +1,14 @@
 ### Week 1: Planning and Setup
 
-1. **Days 1-3: Project Planning**
+1. **Days 1-3: Project Planning** - Done
    - Define the scope and features of your chatbot.
    - Identify the programming language, web framework, and database.
    - Plan the user interface and conversational flow.
 
-2. **Days 4-7: Environment Setup**
+2. **Days 4-7: Environment Setup** - Done
    - Set up your development environment.
    - Install necessary tools, such as a code editor, Git, and your chosen programming language.
    - Create a version control repository (GitHub, GitLab, Bitbucket).
-
------------------------------------------------By this sunday-----------------------------------------------
 
 ### Week 2: Backend Development
 
@@ -30,7 +28,7 @@
    - Select a chatbot framework (e.g., Microsoft Bot Framework, Rasa, Dialogflow).
    - Integrate the chatbot framework with your backend.
 
-6. **Days 18-21: Implement Conversational Logic**
+6. **Days 18-21: Implement Conversational Logic** - Done
    - Define conversational flow and responses.
    - Integrate NLP if necessary.
    - Test the chatbot's basic functionality.
