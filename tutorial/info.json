@@ -84,16 +84,30 @@
       ]
     },
     {
-      "tag": "payments",
+      "tag": "Bubui",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Could you share some details about your bubui or partner?",
+        "Can you provide some insights into your love life and your significant other or bubui?",
+        "Tell me a bit about your current romantic connection or life partner, whome you call bubui.",
+        "How's your love life? Any special someone you'd like to mention?",
+        "Can you share a bit about your relationship status and your girlfriend or boyfriend?",
+        "Tell me about your current partner or significant other in your life.",
+        "How's your romantic journey going? Anything special to share about your life partner?",
+        "Would you mind giving me a glimpse into your love life and your special someone?",
+        "Tell me about your bubui or significant other that holds a special place in your life.",
+        "Can you provide some insights into your relationship status and the person who makes your heart flutter?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "In the symphony of my life, her name resonates like a sweet melody — Shreya. She's the one I dream of spending eternity with, my steadfast support, and my source of motivation.",
+        "Shreya, a name etched on the canvas of my heart, is the muse of my existence. She's not just a partner; she's the guiding star, the motivational whisper in my soul.",
+        "Among the myriad stars in my universe, Shreya shines the brightest. She's not just my life companion; she's my sanctuary, my motivational ballad, a melody that lingers in my heart.",
+        "Shreya, the epitome of grace, is the one I've chosen to dance through the pages of life. She's the canvas of my dreams, my unwavering support, and the sweet serenade of my motivation.",
+        "In the garden of my life, Shreya is the rarest bloom, a fragrant flower that weaves love, understanding, and motivation into the very fabric of my being.",
+        "Shreya, the enchantress of my days, is the one I wish to share the tapestry of my existence with. She's my haven, my daily dose of inspiration, a love that paints my world with hues of joy.",
+        "She walks beside me as the sun sets, a silhouette named Shreya. She's not just my life partner; she's the poetic verses that grace my story, my unwavering motivator, and my greatest blessing.",
+        "Shreya, the compass of my heart, guides me through life's uncharted waters. She's the anthem of my journey, the encourager of dreams, and the sweetest chapter in my book of love.",
+        "In the theater of my life, Shreya is the leading lady, the star of every scene. She's my partner in laughter, the melody of my motivation, and the lyrics to my love song.",
+        "Shreya, the heartbeat of my every moment, is not just a chapter but the entire novel of my life. She's the gentle breeze that whispers motivation, the anchor of my dreams, and the love story I am forever grateful for."
       ]
     },
     {
