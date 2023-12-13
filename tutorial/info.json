@@ -24,6 +24,37 @@
       ]
     },
     {
+      "tag": "greet_sponse",
+      "patterns": [
+        "Fine",
+        "Good",
+        "Good",
+        "Fine",
+        "Feeling great.",
+        "Everything's fine.",
+        "All good.",
+        "Doing well.",
+        "Pretty good.",
+        "Things are going smoothly.",
+        "Couldn't be better.",
+        "Fantastic.",
+        "Great, thank you.",
+        "Enjoying the day."
+      ],
+      "responses": [
+        "Delighted to hear that! What is it that you're curious about?",
+        "That's wonderful news! Now, what can I help you discover or understand?",
+        "Glad to know! So, what knowledge or information are you seeking?",
+        "Fantastic! What inquiries or curiosities are on your mind?",
+        "I'm thrilled to hear that! What specific questions do you have for me?",
+        "Wonderful! Now, what would you like to inquire about or explore?",
+        "That's great to hear! What information or details are you interested in?",
+        "Excellent! What is it that you're eager to find out or discuss?",
+        "I'm happy for you! Now, what can I assist you in learning or understanding?",
+        "Fantastic news! What's on your mind? What would you like to know more about?"
+      ]
+    },
+    {
       "tag": "Kusal",
       "patterns": [ 
         "Kusal, is it you?",
