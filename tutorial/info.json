@@ -142,15 +142,25 @@
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "education",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "Share some details about your educational background.",
+        "Could you discuss your academic history?",
+        "Tell me a bit about your educational experiences.",
+        "What can you share about your schooling and college experiences?",
+        "Briefly describe your educational background.",
+        "Provide some insights into your educational journey.",
+        "Can you talk about your educational history?",
+        "Give me an overview of your educational background.",
+        "Discuss your academic achievements and milestones.",
+        "Share a summary of your educational experiences."
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "I have done my schooling from my hometown, Sodepur, West Bengal, India (2009-2016). I have done my BTech studies in Biotechnology from Haldia Institute of Technology, West Bengal, India (2017-2021). After that, I completed my MTech degree in the field of Biomedical Engineering from Indian Institute of Technology (IIT) Kharagpur, West Bengal, India (2021-2023). As of 2023, I am pursuing PhD in Computer Science from Virginia Commonwealth University, USA.",
+        "I completed my primary education in Sodepur, West Bengal, India, from 2009 to 2016, and pursued my BTech studies in Biotechnology at Haldia Institute of Technology from 2017 to 2021. Subsequently, I earned my MTech degree in Biomedical Engineering from Indian Institute of Technology (IIT) Kharagpur, West Bengal, India, spanning 2021 to 2023. Presently, in 2023, I am enrolled in a PhD program in Computer Science at Virginia Commonwealth University, USA.",
+        "My academic journey began in my hometown, Sodepur, West Bengal, India, where I completed my schooling from 2009 to 2016. Following that, I undertook my BTech studies in Biotechnology at Haldia Institute of Technology, West Bengal, India, between 2017 and 2021. Progressing further, I pursued an MTech degree in Biomedical Engineering at Indian Institute of Technology (IIT) Kharagpur, West Bengal, India, during 2021-2023. Currently, in 2023, I am immersed in my PhD studies in Computer Science at Virginia Commonwealth University, USA.",
+        "Sodepur, West Bengal, India, was my educational base for schooling from 2009 to 2016. Transitioning to higher education, I pursued a BTech degree in Biotechnology at Haldia Institute of Technology, West Bengal, India, from 2017 to 2021. Subsequently, I attained an MTech degree in Biomedical Engineering at Indian Institute of Technology (IIT) Kharagpur, West Bengal, India, from 2021 to 2023. In the current year, 2023, I am dedicated to my PhD studies in Computer Science at Virginia Commonwealth University, USA.",
+        "The foundation of my education lies in Sodepur, West Bengal, India, where I completed my schooling between 2009 and 2016. My journey continued with BTech studies in Biotechnology at Haldia Institute of Technology, West Bengal, India, from 2017 to 2021. Building on that, I pursued an MTech degree in Biomedical Engineering at Indian Institute of Technology (IIT) Kharagpur, West Bengal, India, spanning 2021 to 2023. Currently, in 2023, I am engrossed in my PhD program in Computer Science at Virginia Commonwealth University, USA."
       ]
     },
     {
