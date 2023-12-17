@@ -164,15 +164,21 @@
       ]
     },
     {
-      "tag": "funny",
+      "tag": "memory",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "Can you share a special memory from your childhood?",
+        "Share a story from when you were a kid that you remember well.",
+        "Tell me about something interesting that happened to you when you were young.",
+        "Recall a memorable incident from your childhood for me.",
+        "Can you talk about a fun or significant moment from your early years?",
+        "Share with me a special memory from when you were a child.",
+        "Tell me about a moment from your childhood that stands out to you.",
+        "Share a story about something memorable that happened when you were little.",
+        "Can you recall and describe a special incident from your early days?",
+        "Tell me about an interesting event from your childhood that you remember."
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "I still remember when our family visited the famous 'Chirer Mela'. I was around 5 or so years old. I asked my father to buy me a toy gun that loads and shoots plastic balls sequentially. My mother then scolded me and told me I could not have that. I was so stubborn back then (and still am, maybe :P) that I decided to lie down the road unless I got the gun. A crowd gathered after seeing my silly behavior. Finally, to take me up, my father bought me that gun. Ironically, I shot all the balls in that mela only, and the balls were lost, and I returned with an empty gun. Silly me!"
       ]
     }
   ]
