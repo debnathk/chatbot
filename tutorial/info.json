@@ -180,6 +180,24 @@
       "responses": [
         "I still remember when our family visited the famous 'Chirer Mela'. I was around 5 or so years old. I asked my father to buy me a toy gun that loads and shoots plastic balls sequentially. My mother then scolded me and told me I could not have that. I was so stubborn back then (and still am, maybe :P) that I decided to lie down the road unless I got the gun. A crowd gathered after seeing my silly behavior. Finally, to take me up, my father bought me that gun. Ironically, I shot all the balls in that mela only, and the balls were lost, and I returned with an empty gun. Silly me!"
       ]
+    },
+    {
+      "tag": "life",
+      "patterns": [
+        "What does life mean to you?",
+        "How do you perceive life?",
+        "In your view, what is the essence of life?",
+        "Can you share your thoughts on the meaning of life?",
+        "What significance does life hold for you?",
+        "How would you define life from your perspective?",
+        "Tell me, what does life represent to you?",
+        "What's your take on the meaning of life?",
+        "For you, what does life entail?",
+        "In your opinion, what is the nature of life?"
+      ],
+      "responses": [
+        "For me, life is all about earning respect and love. You should never do any such thing that would make you regret afterwards. Remember, you get what you sow."
+      ]
     }
   ]
 }
