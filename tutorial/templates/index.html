@@ -5,25 +5,31 @@
     <title>KusalBot</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <style>
+        .logo{
+            display: block;
+            margin: 5px 5px 0px 5px;
+            width: 50px;
+            height: 50px;
+}
         body {
             display: flex;
             flex-direction: column;
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #2d0080;
+            background-color: #000000;
             font-family: Arial, sans-serif;
             
         }
 
         #chatbox {
-            width: 300px;
-            height: 400px;
-            background-color: #000000;
-            padding: 20px;
+            width: 90%;
+            height: auto;
+            background-color: transparent;
+            margin: 5px;
+            border: 1px solid rgb(0, 128, 30);
             border-radius: 10px;
-            overflow-y: auto;
-            margin-bottom: 20px; /* Add margin-bottom to create space for the input box */
+            padding: 5px;
         }
 
         #userInput {
@@ -33,30 +39,67 @@
         }
 
         .userText span {
-            color: #fff; /* Change user text color to white */
+            color: #000000; /* Change user text color to white */
+            float: right; /* Float user text to the right */
+            clear: both; /* Clear floats */
+            width: flex;
+            background-color: rgb(156, 230, 167);
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid rgb(0, 128, 30);
+            border-radius: 10px;
+            font-family: 'Roboto', sans-serif;
         }
 
         .botText span {
-        color: #ffcc00; /* Change bot text color to yellow */
+            color: #000000; /* Change user text color to white */
+            float: left; /* Float user text to the right */
+            clear: both; /* Clear floats */
+            width: flex;
+            background-color: rgb(156, 230, 167);
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid rgb(0, 128, 30);
+            border-radius: 10px;
+            font-family: 'Roboto', sans-serif;
+
         }
 
         #textInput {
-            margin-top: 20px;
+            border-radius: 10px;
+            position: bottom;
+            width: flex;
+            background-color: #fff;
+            margin: 10px;
+            border: 1px solid rgb(0, 128, 30);
+            border-radius: 20px;
+            padding: 10px;
         }
 
         #buttonInput {
-            margin-top: 10px;
+            color: #fff;
+            border-radius: 10px;
+            position: bottom;
+            width: 100px;
+            background-color: green;
+            margin: 5px;
+            border: 1px solid rgb(0, 128, 30);
+            border-radius: 20px;
+            padding: 10px;
         }
     </style>
 </head>
 
 <body>
+    <nav>
+        <img class= "logo" src="logo.png" alt="logo">
+      </nav>
     <div id="chatbox">
         <p class="botText"><span>Kusal: Hi! I'm Kusal! Nice to meet you!.</span></p>
     </div>
 
     <form id="userInput" action="/" method="GET">
-        <input id="textInput" type="text" name="msg" placeholder="Message">
+        <input id="textInput" type="text" name="msg" placeholder="Type your message here...">
         <input id="buttonInput" type="submit" value="Send">
     </form>
 
