@@ -35,7 +35,7 @@
             color: #ffffff;
             font-family: Arial, sans-serif;
             overflow: hidden;
-            background-image: url('../jason-leung-73LVfWy-t0A-unsplash.jpg');
+            background-image: url('../static/jason-leung-73LVfWy-t0A-unsplash.jpg');
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -98,7 +98,7 @@
 
         #textInput {
             background-color: rgb(173, 216, 230); /* LightBlue background */
-            border-color: rgb(0, 128, 30);
+            /* border-color: rgb(0, 128, 30); */
             border-radius: 20px;
             width: 90vw;
             color: rgb(25, 25, 112); /* MidnightBlue text */
@@ -147,6 +147,11 @@
             var userHtml = '<p class="userText"><span>You: ' + rawText + '</span></p>';
             $("#textInput").val("");
             $("#chatbox").append(userHtml);
+
+            // Add a "typing..." message
+            var typingHtml = '<div class="botText"><span class="senderName">Bot</span><span>typing...</span></div>';
+            $("#chatbox").append(typingHtml);
+
             document.getElementById('userInput').scrollIntoView({
                 block: 'start',
                 behavior: 'smooth'
@@ -154,13 +159,20 @@
             $.get("/get", {
                 msg: rawText
             }).done(function (data) {
-                var botHtml = '<p class="botText"><span>Kusal: ' + data + '</span></p>';
-                $("#chatbox").append(botHtml);
+
+                // Remove the "typing..." message
+                $(".botText").last().remove();
+
+                // Delay the response to simulate typing
+                setTimeout(function() {
+                    var botHtml = '<p class="botText"><span>Kusal: ' + data + '</span></p>';
+                    $("#chatbox").append(botHtml);
                 document.getElementById('userInput').scrollIntoView({
                     block: 'start',
                     behavior: 'smooth'
                 });
-            });
+            }, 2000);
+            }, 5000);
         }
     </script>
 
