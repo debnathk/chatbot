@@ -89,7 +89,7 @@
             float: right; /* Float user text to the right */
             clear: both; /* Clear floats */
             max-width: 80vw;
-            background: linear-gradient(to left, rgba(30, 144, 255, 0.5), rgba(135, 206, 235, 0.5)); /* Gradient background from DodgerBlue to SkyBlue */
+            background: linear-gradient(to left, rgba(255, 68, 30, 0.5), rgba(255, 242, 0, 0.5)); /* Gradient background from DodgerBlue to SkyBlue */
             background-color: rgb(156, 230, 167);
             padding: 10px;
             margin: 10px;
@@ -105,7 +105,7 @@
             float: left; /* Float user text to the right */
             clear: both; /* Clear floats */
             max-width: 80vw;
-            background: linear-gradient(to right, rgba(30, 144, 255, 0.5), rgba(135, 206, 235, 0.5)); /* Gradient background from DodgerBlue to SkyBlue */
+            background: linear-gradient(to right, rgba(30, 144, 255, 0.5), rgba(0, 255, 8, 0.5)); /* Gradient background from DodgerBlue to SkyBlue */
             background-color: rgb(156, 230, 167);
             padding: 10px;
             margin: 10px;
@@ -142,7 +142,7 @@
       </nav>
     <div id="chatbox">
         <div id="scrollwrapper">
-            <p class="botText"><span>Kusal: Hi! I'm Kusal! Nice to meet you!.</span></p>
+            <p class="botText"><span>Hi! I'm Kusal! Nice to meet you!.</span></p>
         </div>
     </div>
 
@@ -161,7 +161,7 @@
 
         function getBotResponse() {
             var rawText = $("#textInput").val();
-            var userHtml = '<p class="userText"><span>You: ' + rawText + '</span></p>';
+            var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
             $("#textInput").val("");
             $("#chatbox").append(userHtml);
 
@@ -171,7 +171,7 @@
             $.get("/get", { msg: rawText }).done(function(data) {
                 // Delay the response to simulate typing
                 setTimeout(function() {
-                    var botHtml = '<p class="botText"><span>Kusal: ' + data + '</span></p>';
+                    var botHtml = '<p class="botText"><span>' + data + '</span></p>';
                     $("#chatbox").append(botHtml);
 
                     // Scroll to the new bot message
